@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-color: #dfd0d0;
+    background-color: #cfadad;
 }
 
 
@@ -51,15 +51,15 @@ nav li{
     font-size: 15px;
 }
 nav li a{
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
 }
 
 main{
     max-width: 100%;
     width: 1200px;
-    margin: 80px auto;
-    padding: 0 40px;
+    margin: 20px auto;
+    padding: 0px 90px;
     box-sizing: border-box;
 }
 
@@ -77,7 +77,7 @@ article p{
 section.banner img {
     background-color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 .register{
     background-color: aliceblue;
