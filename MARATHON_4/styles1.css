@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #280404;
+}
+
+
+header{
+    background-color: rgb(20, 157, 199);
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100px;
+}
+section {
+    background-color: white; 
+    padding: 20px;
+}
+.banner {
+    position: bottom;
+    
+}
+.banner img{
+    max-width: 97%;
+}
+
+nav{
+    background-color: coral;
+    padding: 20px;
+    height: 12px;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    
+    
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 800px;
+    margin: 0 auto;
+    left: 20px;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 15px;
+}
+nav li a{
+    text-decoration: none; 
+    color: white;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 0px 90px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color: rgb(66, 156, 205);
+    font-size: 30px;
+    
+}
+article p{
+    line-height: 2em;
+    color: #000000;
+    background-color: white;
+}
+
+section.banner img {
+    background-color: white;
+    padding: 10px;
+    border-radius: 1px;
+}
+.register{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+form input{
+    margin: 2px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 38px;
+    border: 2px solid white;
+   
+}
+.copyright {
+    background-color:#4b4b4b;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    bottom: 0px;
+    position: relative;
+    width: 100%;
+    height: 1%;
+
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline: none;
+}
+
+form input:valid{
+    border: 1px solid #000000
+}
+
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+   
+}
+
+p::selection{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+p::after{
+    content: '...';
+}
+
+
+/* Aturan CSS untuk layar besar (desktop) */
+@media only screen and (min-width: 1200px) {
+    main {
+      width: 100%;
+      padding: 0 90px;
+    }
+  
+    nav ul {
+      left: 20px;
+      max-width: 800px;
+    }
+  
+    nav li {
+      width: 25%;
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+  
